@@ -1,0 +1,14 @@
+$.ajax({
+    type: 'get',
+    url: '/donation/junk/4',
+    data: datastring,
+    success: function(data) {
+        alert(data);
+    }
+});
+PHP:
+
+function junk($id)
+{
+    print "works11";
+}
